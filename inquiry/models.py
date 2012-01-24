@@ -10,4 +10,20 @@ class Question (models.Model):
     pub_date = models.DateTimeField('datepublished')
     author = models.ForeignKey(Author)
     
+class Prediction (models.Model):
+    prediction = models.CharField(max_length=300)
+    pub_date = models.DateTimeField('datepublished')
+    author = models.ForeignKey(Author)
+    
+class Observation (models.Model):
+    observation = models.CharField(max_length=300)
+    pub_date = models.DateTimeField('datepublished')
+    author = models.ForeignKey(Author)
+    
+class Answer (models.Model):
+    Answer = models.CharField(max_length=300)
+    pub_date = models.DateTimeField('datepublished')
+    author = models.ForeignKey(Author)
+               
+    
 # Create your models here.
