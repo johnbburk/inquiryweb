@@ -1,6 +1,7 @@
 from django.db import models
 
 #this is a comment
+#tagging:  use http://code.google.com/p/django-tagging/ or something else for tagging?
 class Author(models.Model):
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)  
