@@ -3,3 +3,18 @@ README: Inquiryweb
 Blog post describing my ideas for inquiry-web: https://quantumprogress.wordpress.com/2012/01/15/building-the-inquiryweb-a-way-to-bring-questions-to-the-center-of-the-classroom/
 
 Written in python 2.7 and django 1.3
+
+
+Notes on install
+Have set up site5 with git repo
+
+git clone git@github.com:occam98/inquiryweb.git
+followed these instructions trhough configure remotes
+
+
+8:18:25 AM | 2012 Jan 30
+
+Latest problem: need to follow instructions toget django working
+	-jailshell-3.2$ python manage.py syncdb
+	Error: No module named messages
+	-jailshell-3.2$     
