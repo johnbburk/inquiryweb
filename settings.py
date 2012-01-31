@@ -11,13 +11,10 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        #'ENGINE':'mysql'
-        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'inquiryweb',                      # Or path to database file if using sqlite3.
-        #'USER': 'burkphys_django'
-        'USER': 'django',                      # Not used with sqlite3.
-        #'PASSWORD':'',
-        'PASSWORD': 'djangotest',                  # Not used with sqlite3.
+        'ENGINE':'django.db.backends.mysql',
+        'NAME': 'occam98_inqweb',
+        'USER': 'occam98_inqweb',
+        'PASSWORD':'068e61d4',
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -107,6 +104,7 @@ ROOT_URLCONF = 'inquiryweb.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+	'/home/occam98/webapps/django/inquiryweb/mytemplates'
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
@@ -118,11 +116,11 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'inquiry',
+    'inquiryweb.inquiry',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -147,3 +145,11 @@ LOGGING = {
         },
     }
 }
+
+#fix this to enable email.
+#EMAIL_HOST = 'smtp.webfaction.com'
+#EMAIL_HOST_USER = 'occam98'
+#EMAIL_HOST_PASSWORD = 'mailbox_password'
+#DEFAULT_FROM_EMAIL = 'valid_email_address'
+#SERVER_EMAIL = 'valid_email_address'
+
