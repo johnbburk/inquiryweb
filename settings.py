@@ -120,11 +120,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-<<<<<<< HEAD
     'django.contrib.admindocs',
-=======
-     'django.contrib.admindocs',
->>>>>>> da36ec8bf53531032f5b7e36d7f98d223a574ebe
+
 )
 
 # A sample logging configuration. The only tangible logging
