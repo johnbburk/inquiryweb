@@ -1,2 +1,3 @@
 #gitignore file
-settings.py
+settings*
+urls*
