@@ -18,3 +18,12 @@ Latest problem: need to follow instructions toget django working
 	-jailshell-3.2$ python manage.py syncdb
 	Error: No module named messages
 	-jailshell-3.2$     
+	
+seems to be a problem with wrong version of django and python on site5
+
+
+11:46:14 AM | 2012 Jan 30
+
+set up on webfaction test account
+set up RSA key to connect to github
+	
