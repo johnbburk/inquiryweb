@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  30 JAN 2012 23:49
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  31 JAN 2012 23:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -288,26 +288,36 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \everyMPtoPDFconversion=\toks28
 )
 Missing character: There is no Ñ in font cmr10!
- [1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./InquiryWebDesignDoc.aux) ) 
+ <systemdiagram.pdf, id=1, 455.7025pt x 375.4025pt>
+File: systemdiagram.pdf Graphic file (type pdf)
+ <use systemdiagram.pdf>
+Overfull \hbox (25.69675pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+[1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./systemdiagram.pdf>] (./InquiryWebDesignDoc.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3113 strings out of 493747
- 40303 string characters out of 3143546
- 101101 words of memory out of 3000000
- 6217 multiletter control sequences out of 15000+200000
+ 3120 strings out of 493747
+ 40429 string characters out of 3143546
+ 102095 words of memory out of 3000000
+ 6223 multiletter control sequences out of 15000+200000
  8595 words of font info for 33 fonts, out of 3000000 for 9000
  875 hyphenation exceptions out of 8191
- 41i,4n,31p,588b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr9.pfb>
-Output written on InquiryWebDesignDoc.pdf (1 page, 56475 bytes).
+ 41i,5n,31p,588b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on InquiryWebDesignDoc.pdf (2 pages, 84636 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
