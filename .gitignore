@@ -1,3 +1,6 @@
 #gitignore file
 settings*
 urls*
+settings.pyc
+
+settings.pyc
