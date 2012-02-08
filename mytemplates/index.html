@@ -1,0 +1,10 @@
+<h1>Welcome to Inquiryweb</h1>
+{% if latest_question_list %}
+<ul>
+{% for Event in latest_question_list %}
+	<li>{{Event.description}}</li> 
+{% endfor %}       
+</ul>
+{% else %}
+<p>No questions are available</p>			
+{% endif %}
