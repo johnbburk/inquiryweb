@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'inquiryweb.views.home', name='home'),
+    url(r'^$', 'inquiry.views.index', name='index'),
     # url(r'^inquiryweb/', include('inquiryweb.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
