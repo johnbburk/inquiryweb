@@ -1,0 +1,7 @@
+<h1>Enter a new question</h1>
+<form>
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Submit"/>
+
+</form>
