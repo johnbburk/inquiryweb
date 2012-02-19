@@ -52,7 +52,7 @@ STATIC_ROOT = '/home/occam98/webapps/django/inquiryweb'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'http://occam98.webfactional.com/static/'
+STATIC_URL = 'http://occam98.webfactional.com/static'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
@@ -60,7 +60,7 @@ STATIC_URL = 'http://occam98.webfactional.com/static/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
-STATICFILES_DIRS = (
+STATICFILES_DIRS = ( "/home/occam98/webapps/django/inquiryweb/static",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

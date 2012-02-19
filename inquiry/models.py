@@ -25,7 +25,8 @@ class Event (models.Model):
         
 #tagging.register(Event)
 
-class EventForm(ModelForm)
-     class Meta:
-         model = Event 
+
+class EventForm(ModelForm):
+    class Meta: 
+        model = Event
     

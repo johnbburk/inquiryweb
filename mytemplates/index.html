@@ -1,4 +1,14 @@
-<h1>Welcome to Inquiryweb</h1>
+{% load bootstrap %}
+{% bootstrap_css %}
+{% bootstrap_js all %}
+
+
+<h1>Welcome to Inquiryweb now</h1>
+<div class="row">
+<div class="span4">
+</div>
+<div class="span8">
+
 {% if latest_question_list %}
 <ul>
 {% for Event in latest_question_list %}
@@ -8,3 +18,5 @@
 {% else %}
 <p>No questions are available</p>			
 {% endif %}
+</div>	
+</div>
